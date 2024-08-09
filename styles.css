@@ -162,3 +162,37 @@ header{
     font-size: 36px;
     text-align: center;
 }
+
+/* habits */
+.habits{
+    max-width: 80%;
+    min-height: 300px;
+    margin: 80px auto;
+    border: 2px solid blue;
+    text-align: center;
+}
+.habits h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+.habit-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    max-width: 230px;
+    height: 300px;
+    padding: 10px;
+    margin: 40px;
+    border: 2px solid blue;
+}
+.card h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card img{
+    border: 2px solid gray;
+    border-radius: 50%;
+}
