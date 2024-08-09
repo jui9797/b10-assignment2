@@ -130,6 +130,50 @@
     margin-left: -10px;
     
   }
+  /* bmi responsive */
+  .bmi-content{
+    flex-direction: column;
+  }
+  .bmi-heading{
+    max-width: 600px;
+    margin: 20px auto;
+    
+}
+.bmi-heading h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.bmi-heading p{
+    margin-left: 0;
+    text-align:center; 
+}
+.bmi-table{
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 80px; */
+    
+    
+}
+.bmi-table h3{
+    font-size: 24px;
+}
+.bmi-input h3{
+    font-size: 24px;
+}
+
+.bmi-input{
+    width: 80%;
+    margin-top: 40px;
+    /* border: 2px solid red; */
+}
+.input-content{
+    grid-template-columns: repeat(2, 1fr);
+}
 
 }
 
