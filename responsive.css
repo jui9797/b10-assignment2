@@ -187,5 +187,21 @@
     font-weight: 900;
 }
 
+/* footer */
+.footer{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.footer h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.footer-content{
+    padding-bottom: 30px;
+}
+
 }
 

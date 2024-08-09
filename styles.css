@@ -376,4 +376,49 @@ table{
     text-align: left;
 }
 
+/* footer */
+.footer-content{
+    max-width: 100%;
+    min-height: 500px;
+    background: rgba(255, 255, 255, 0.1);  
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 60px;
+}
+.footer h1{
+    color: rgb(230, 83, 60);
+    font-size: 56px;
+    font-weight: 800;
+}
+.footer h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer h6{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.footer-content hr{
+    color: rgba(255, 255, 255, 0.1);
+    margin: 40px auto;
+    width: 80%;
+}
+.footer-content p{
+    text-align: center;
+}
+#span-p p{
+    
+    text-align: left;
+    /* border: 2px solid blue; */
+    
+}
+
 
