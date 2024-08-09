@@ -96,5 +96,40 @@
 .habit-card{
     flex-direction: column;
 }
+
+/* run responsive */
+.run{
+    flex-direction: column;
+    /* height: 670px; */
+}
+.run-content h1{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+.run-content p{
+    font-size: 14px;
+}
+.run button{
+    width: 100%;
+    margin-left: -10px;
+    
+}
+.run-img{
+    width:287px;
+    height: 170px;
+    margin: 20px auto;
+    /* background-color: aqua; */
+    background-image: url("./images/run2.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+   
+    margin-left: -10px;
+    
+  }
+
 }
 
