@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
 
 *{
     margin: 0;
@@ -10,6 +11,36 @@ body{
     font-family: "Inter", sans-serif;
      background-color: black;
 }
+
+/* shared style */
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+}
+.btn-primary{
+    border: none;
+    border-radius:40px ;
+    background-color:rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.btn-scondary{
+    border-radius:40px ;
+    border:1px solid white;
+    background-color:transparent;
+    padding: 16px 40px 16px 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;   
+}
+
 /* nav style */
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -52,4 +83,82 @@ header{
 }
 #orange-btn{
     background-color: rgb(230, 83, 60);
+}
+
+/* banner style */
+.banner{
+    max-width: 80%;
+    margin: 40px auto;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 80%;
+    margin-top: 100px;
+    /* margin-left: 50px; */
+   padding-bottom: 20px;
+    border: 2px solid green; 
+    text-align: left;
+}
+.banner-content h1{
+    font-size: 75px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+#italic{
+    font-family: "Grey Qo", cursive;
+    font-style: italic;
+    font-size: 85px;
+    font-weight: 400;
+}
+.banner-img{
+    max-width: 80%;
+    border: 2px solid blue;
+    position: relative;
+}
+.banner-img p{
+    font-size: 13px;
+}
+.img-btn1{
+   position: absolute;
+   top: 130px;
+   left: 250px;
+   width: 190px;
+   /* height: 120px; */
+   padding: 10px;
+   box-sizing: border-box;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 12px;
+   backdrop-filter: blur(20px);
+   background: rgba(255, 255, 255, 0.1);
+}
+.img-btn1 h4{
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+.img-btn2 h4{
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+}
+.img-btn2{
+    position: absolute;
+    left: -110px;
+    bottom: 60px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+#red{
+    color:  rgb(230, 83, 60);
+    margin-right: 10px;
+    font-size: 36px;
+    text-align: center;
 }
