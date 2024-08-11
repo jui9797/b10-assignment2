@@ -49,6 +49,9 @@
     color: white;
     margin-top: 20px;   
 }
+#club{
+    display: none;
+}
 .banner-img{
     max-width: 100%;
     margin-top: 40px;

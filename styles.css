@@ -41,9 +41,14 @@ p{
     margin-top: 20px;   
 }
 
+#header{
+    background-image: linear-gradient(black, rgba(128,128, 128, 0.4), black);
+ 
+}
+
 /* nav style */
 header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     
     min-height: 715px;
 }
