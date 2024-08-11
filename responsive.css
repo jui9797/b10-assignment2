@@ -22,7 +22,7 @@
     max-width: 100%;
 }
 .banner-content h1{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 800;
     color: rgb(255, 255, 255);
 }
@@ -129,6 +129,23 @@
    
     margin-left: -10px;
     
+  }
+
+  /* unique responsive */
+  .unique-card{
+    flex-direction: column;
+  }
+  .unique-title h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+  }
+  .card-box{
+    max-width: 100%;
+    margin-top:20px;
+  }
+  .btn-box{
+    margin-left: 80px;
   }
   /* bmi responsive */
   .bmi-content{
