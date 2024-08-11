@@ -31,19 +31,19 @@
     border: none;
     border-radius:40px ;
     background-color:rgb(230, 83, 60);
-    padding: 8px 20px 8px 20px;
+    padding: 20px 30px 20px 30px;
     font-weight: 500;
     font-size: 12px;
     color: white;
     margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 20px;
 }
 .btn-scondary{
     border-radius:40px ;
     border:1px solid white;
     background-color:transparent;
-    padding: 8px 20px 8px 20px;
+    padding: 20px 30px 20px 30px;
     font-weight: 500;
     font-size: 12px;
     color: white;
@@ -57,7 +57,7 @@
 }
 .img-btn1{
     position: absolute;
-    top: 90px;
+    top: 70px;
     left: 200px;
     width: 130px;
     /* height: 120px; */
@@ -91,6 +91,16 @@
     display: flex;
     padding: 20px;
     text-align: center;
+}
+#play{
+    display: block;
+    color:  rgb(230, 83, 60);
+    margin-right: 10px;
+    font-size: 36px;
+    text-align: center;
+}
+#red{
+    display: none;
 }
 /* habit responsive */
 .habit-card{

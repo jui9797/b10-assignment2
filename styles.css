@@ -162,7 +162,9 @@ header{
     font-size: 36px;
     text-align: center;
 }
-
+#play{
+    display: none;
+}
 /* habits */
 .habits{
     max-width: 80%;
@@ -299,11 +301,11 @@ header{
 /* BMI Calculator */
 .bmi-heading{
     max-width: 600px;
-    margin: 20px auto;
+    margin: 100px auto;
     
 }
 .bmi-heading h1{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 900;
     color: white;
     text-align: left;
@@ -315,7 +317,7 @@ header{
 /* bmi content */
 .bmi-content{
     width: 100%;
-    margin: 0 auto;
+    margin: 40px auto;
     min-height: 487px;
     /* border: 2px solid green; */
     background: rgb(34, 34, 34);
@@ -398,7 +400,7 @@ table{
 /* meet our team */
 .team{
     max-width: 80%;
-    margin: 80px auto;
+    margin: 120px auto;
     /* border: 2px solid green; */
     text-align: center;
 }
